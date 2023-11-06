@@ -1,0 +1,5 @@
+<div class="md:grid grid-rows-1 grid-flow-col gap-2 md:max-w-4xl">
+     <div class="border border-sunglow p-5 rounded-t md:rounded-tr-none md:rounded-l md:flex items-center">
+          <slot/>
+     </div>
+</div>

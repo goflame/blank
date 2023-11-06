@@ -1,0 +1,9 @@
+@extend("templates.app")
+
+<go-middle>
+     <h1>goFlame</h1>
+     <p>Build modern, fast, and stylish MVC applications with Go</p>
+     <xgo-button :teleport="flame.Url("/docs")" (blank)>
+          See the documentation
+     </xgo-button>
+</go-middle>
